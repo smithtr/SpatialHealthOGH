@@ -1,0 +1,80 @@
+---
+title: "Spatial Health Analysis Challenge Code"
+output:
+  html_document: 
+    keep_md: yes
+---
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(sf)
+```
+
+
+Read in the polygon (you will need to download from the data folder first).
+```{r, message=FALSE}
+map_MSOA = st_read('./data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Super_Output_Areas_2011.shp')
+MSOA_bath = map_MSOA[grep('Bath', map_MSOA$msoa11nm),]
+```
+
+Download the case data for Bath from UK Covid dashboard API.
+First MSOA-level data:  rolling seven day totals, released once per week.
+Missing rows mean censored data (counts = 0, 1, or 2).
+ 
+```{r}
+cases_bath_msoa = read_csv('https://api.coronavirus.data.gov.uk/v2/data?areaType=msoa&areaCode=E06000022&metric=newCasesBySpecimenDateRollingSum&format=csv')
+```
+
+Next get data for the whole local authority: rolling seven day totals, released daily.
+```{r}
+cases_bath_all = read_csv('https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&areaCode=E06000022&metric=newCasesBySpecimenDateRollingSum&format=csv')
+```
+Note: The UK covid-19 API is sometimes down. These above data sets are also available 
+in the data folder on GitHub. 
+  
+  * weely_cases_bath_MSOA contains the MSOA-level rolling seven day totals, released every week.
+  * daily_cases_bath_total contains the rolling seven day totals for the whole local authority, released daily
+
+ 
+Now I extract data for one low week between peaks in April 2021 (lots of censoring)
+and one peak week in July 2021 to demonstrate the censoring problem.
+```{r, message=FALSE}
+low_week = filter(cases_bath_msoa, as.character(date) == '2021-04-20')%>%
+  select(areaCode, April_2021 = contains('Cases'))
+
+
+high_week = filter(cases_bath_msoa, as.character(date) == '2021-07-27')%>%
+  select(areaCode, July_2021 = contains('Cases'))
+
+low_week
+high_week
+```  
+
+
+
+Next check the total counts for these weeks, and save some labels for plots later.
+```{r, message=FALSE}
+filter(cases_bath_all, as.character(date) == '2021-04-20' | as.character(date) ==  '2021-07-27')
+wk.labs <- c("20 April 2021 (B&NES total 16)", "27 July 2021 (B&NES total 634)")
+names(wk.labs) <- c("April_2021", "July_2021")
+```
+
+Now I merge with MSOA geometry and reshape the data structure a bit to make plotting easier
+```{r, message=FALSE}
+MSOA_bath = left_join(MSOA_bath, low_week, by = c('msoa11cd' = 'areaCode'))%>%
+  left_join(high_week,by = c('msoa11cd' = 'areaCode'))
+
+msoab2 = select(MSOA_bath, April_2021, July_2021, geometry) %>% 
+  gather(week, cases, -geometry)
+```
+
+Finally I make an unfancy plot, which shows the general problem 
+
+```{r, message=FALSE}
+ggplot() + 
+  geom_sf(data = msoab2, aes(fill = cases)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",
+                        guide="colorbar",na.value="gray95")+
+  facet_wrap(~week, ncol = 2, labeller = labeller(week = wk.labs))+
+  theme_bw()+ ggtitle('Confirmed Cases in Bath and Northeast Somerset')
+```

@@ -1,0 +1,872 @@
+regionCode,regionName,UtlaCode,UtlaName,LtlaCode,LtlaName,areaCode,areaName,areaType,date,newCasesBySpecimenDateRollingSum
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-08-17,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-08-17,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-08-17,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-08-17,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-08-17,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-08-17,39
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-08-17,52
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-08-17,33
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-08-17,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-08-17,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-08-17,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-08-17,50
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-08-17,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-08-17,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-08-17,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-08-17,43
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-08-17,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-08-17,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-08-17,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-08-17,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-08-17,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-08-17,39
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-08-17,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-08-17,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-08-17,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-08-17,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-08-17,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-08-10,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-08-10,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-08-10,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-08-10,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-08-10,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-08-10,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-08-10,49
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-08-10,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-08-10,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-08-10,41
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-08-10,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-08-10,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-08-10,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-08-10,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-08-10,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-08-10,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-08-10,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-08-10,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-08-10,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-08-10,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-08-10,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-08-10,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-08-10,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-08-10,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-08-10,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-08-10,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-08-10,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-08-03,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-08-03,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-08-03,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-08-03,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-08-03,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-08-03,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-08-03,38
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-08-03,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-08-03,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-08-03,34
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-08-03,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-08-03,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-08-03,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-08-03,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-08-03,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-08-03,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-08-03,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-08-03,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-08-03,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-08-03,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-08-03,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-08-03,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-08-03,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-08-03,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-08-03,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-08-03,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-08-03,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-07-27,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-07-27,41
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-07-27,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-07-27,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-07-27,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-07-27,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-07-27,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-07-27,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-07-27,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-07-27,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-07-27,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-07-27,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-07-27,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-07-27,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-07-27,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-07-27,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-07-27,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-07-27,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-07-27,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-07-27,42
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-07-27,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-07-27,29
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-07-27,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-07-27,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-07-27,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-07-27,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-07-27,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-07-20,68
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-07-20,64
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-07-20,34
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-07-20,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-07-20,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-07-20,45
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-07-20,53
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-07-20,29
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-07-20,37
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-07-20,58
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-07-20,63
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-07-20,55
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-07-20,54
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-07-20,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-07-20,49
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-07-20,70
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-07-20,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-07-20,55
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-07-20,46
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-07-20,68
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-07-20,77
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-07-20,44
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-07-20,54
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-07-20,50
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-07-20,72
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-07-20,86
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-07-20,41
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-07-13,55
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-07-13,45
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-07-13,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-07-13,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-07-13,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-07-13,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-07-13,72
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-07-13,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-07-13,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-07-13,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-07-13,37
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-07-13,59
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-07-13,50
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-07-13,30
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-07-13,44
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-07-13,45
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-07-13,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-07-13,43
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-07-13,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-07-13,39
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-07-13,44
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-07-13,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-07-13,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-07-13,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-07-13,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-07-13,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-07-13,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-07-06,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-07-06,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-07-06,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-07-06,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-07-06,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-07-06,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-07-06,46
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-07-06,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-07-06,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-07-06,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-07-06,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-07-06,40
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-07-06,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-07-06,36
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-07-06,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-07-06,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-07-06,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-07-06,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-07-06,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-07-06,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-07-06,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-07-06,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-07-06,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-07-06,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-07-06,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-07-06,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-07-06,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-06-29,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-06-29,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-06-29,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-06-29,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-06-29,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-06-29,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-06-29,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-06-29,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-06-29,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-06-29,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-06-29,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-06-29,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-06-29,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-06-29,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-06-29,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-06-29,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-06-29,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-06-29,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-06-29,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-06-29,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-06-29,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-06-29,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-06-29,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-06-29,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-06-29,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-06-29,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-06-22,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-06-22,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-06-22,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-06-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-06-22,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-06-22,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-06-22,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-06-22,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-06-22,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-06-22,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-06-22,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-06-22,48
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-06-22,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-06-22,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-06-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-06-22,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-06-22,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-06-22,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-06-22,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-06-22,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-06-22,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-06-22,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-06-22,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-06-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-06-22,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-06-22,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-06-15,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-06-15,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-06-15,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-06-15,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-06-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-06-15,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-06-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-06-15,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-06-15,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-06-15,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-06-15,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-06-15,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-06-15,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-06-15,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-06-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-06-15,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-06-08,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-06-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-06-08,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-06-08,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-06-08,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-06-08,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-06-08,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-06-08,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-06-01,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-06-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-06-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-05-25,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-05-18,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-05-18,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-05-18,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-05-11,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-05-11,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-05-11,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-05-11,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-05-04,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-05-04,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-05-04,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-04-27,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-04-27,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-04-20,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-04-20,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-04-13,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-04-06,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-04-06,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-04-06,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-03-30,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-03-30,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-03-23,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-03-23,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-03-23,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-03-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-03-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-03-16,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-03-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-03-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-03-16,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-03-09,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-03-09,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-03-09,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-03-09,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-03-09,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-03-09,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-03-09,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-03-09,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-03-02,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-03-02,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-03-02,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-03-02,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-03-02,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-03-02,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-03-02,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-02-23,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-02-23,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-02-23,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-02-23,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-02-23,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-02-23,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-02-23,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-02-23,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-02-23,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-02-23,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-02-23,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-02-16,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-02-16,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-02-16,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-02-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-02-16,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-02-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-02-16,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-02-16,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-02-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-02-16,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-02-16,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-02-16,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-02-16,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-02-16,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-02-16,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-02-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-02-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-02-16,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-02-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-02-16,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-02-16,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-02-16,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-02-16,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-02-16,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-02-09,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-02-09,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-02-09,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-02-09,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-02-09,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-02-09,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-02-09,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-02-09,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-02-09,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-02-09,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-02-09,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-02-09,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-02-09,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-02-09,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-02-09,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-02-09,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-02-09,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-02-09,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-02-09,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-02-09,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-02-09,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-02-02,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-02-02,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-02-02,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-02-02,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-02-02,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-02-02,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-02-02,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-02-02,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-02-02,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-02-02,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-02-02,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-02-02,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-02-02,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-02-02,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-02-02,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-02-02,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-02-02,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-02-02,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-02-02,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-02-02,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-02-02,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-02-02,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-02-02,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-02-02,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-02-02,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-02-02,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-02-02,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-01-26,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-01-26,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-01-26,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-01-26,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-01-26,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-01-26,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-01-26,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-01-26,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-01-26,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-01-26,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-01-26,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-01-26,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-01-26,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-01-26,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-01-26,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-01-26,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-01-26,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-01-26,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-01-26,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-01-26,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-01-26,39
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-01-26,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-01-26,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-01-26,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-01-26,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-01-19,44
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-01-19,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-01-19,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-01-19,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-01-19,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-01-19,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-01-19,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-01-19,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-01-19,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-01-19,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-01-19,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-01-19,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-01-19,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-01-19,30
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-01-19,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-01-19,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-01-19,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-01-19,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-01-19,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-01-19,40
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-01-19,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-01-19,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-01-19,42
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-01-19,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-01-19,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-01-19,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-01-19,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-01-12,47
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-01-12,58
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-01-12,37
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-01-12,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-01-12,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-01-12,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-01-12,34
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-01-12,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-01-12,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-01-12,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-01-12,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-01-12,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-01-12,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-01-12,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-01-12,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-01-12,36
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-01-12,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-01-12,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-01-12,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-01-12,61
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-01-12,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-01-12,38
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-01-12,45
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-01-12,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-01-12,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-01-12,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-01-12,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2021-01-05,39
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2021-01-05,29
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2021-01-05,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2021-01-05,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2021-01-05,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2021-01-05,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2021-01-05,32
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2021-01-05,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2021-01-05,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2021-01-05,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2021-01-05,44
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2021-01-05,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2021-01-05,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2021-01-05,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2021-01-05,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2021-01-05,35
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2021-01-05,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2021-01-05,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2021-01-05,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2021-01-05,56
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2021-01-05,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2021-01-05,36
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2021-01-05,51
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2021-01-05,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2021-01-05,37
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2021-01-05,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2021-01-05,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-12-29,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-12-29,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-12-29,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-12-29,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-12-29,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-12-29,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-12-29,34
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-12-29,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-12-29,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-12-29,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-12-29,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-12-29,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-12-29,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-12-29,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-12-29,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-12-29,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-12-29,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-12-29,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-12-29,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-12-29,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-12-29,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-12-29,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-12-29,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-12-29,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-12-29,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-12-29,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-12-29,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-12-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-12-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-12-22,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-12-22,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-12-22,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-12-22,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-12-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-12-22,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-12-22,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-12-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-12-22,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-12-22,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-12-22,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-12-22,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-12-22,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-12-22,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-12-22,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-12-22,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-12-22,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-12-22,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-12-22,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-12-22,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-12-22,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-12-22,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-12-22,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-12-22,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-12-15,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-12-15,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-12-15,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-12-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-12-15,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-12-15,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-12-15,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-12-15,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-12-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-12-15,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-12-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-12-15,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-12-15,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-12-15,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-12-15,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-12-15,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-12-15,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-12-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-12-15,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-12-15,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-12-15,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-12-15,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-12-15,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-12-15,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-12-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-12-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-12-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-12-08,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-12-08,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-12-08,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-12-08,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-12-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-12-08,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-12-08,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-12-08,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-12-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-12-08,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-12-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-12-08,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-12-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-12-08,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-12-08,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-12-08,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-12-08,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-12-08,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-12-08,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-12-08,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-12-08,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-12-01,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-12-01,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-12-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-12-01,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-12-01,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-12-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-12-01,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-12-01,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-12-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-12-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-12-01,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-12-01,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-12-01,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-12-01,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-12-01,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-12-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-12-01,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-12-01,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-12-01,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-12-01,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-12-01,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-11-24,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-11-24,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-11-24,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-11-24,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-11-24,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-11-24,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-11-24,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-11-24,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-11-24,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-11-24,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-11-24,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-11-24,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-11-24,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-11-24,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-11-24,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-11-24,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-11-24,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-11-24,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-11-24,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-11-24,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-11-24,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-11-24,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-11-24,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-11-24,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-11-24,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-11-24,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-11-24,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-11-17,22
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-11-17,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-11-17,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-11-17,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-11-17,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-11-17,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-11-17,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-11-17,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-11-17,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-11-17,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-11-17,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-11-17,82
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-11-17,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-11-17,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-11-17,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-11-17,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-11-17,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-11-17,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-11-17,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-11-17,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-11-17,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-11-17,21
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-11-17,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-11-17,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-11-17,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-11-17,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-11-17,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-11-10,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-11-10,23
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-11-10,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-11-10,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-11-10,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-11-10,26
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-11-10,34
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-11-10,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-11-10,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-11-10,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-11-10,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-11-10,110
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-11-10,28
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-11-10,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-11-10,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-11-10,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-11-10,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-11-10,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-11-10,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-11-10,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-11-10,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-11-10,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-11-10,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-11-10,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-11-10,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-11-10,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-11-10,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-11-03,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-11-03,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-11-03,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-11-03,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-11-03,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-11-03,18
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-11-03,27
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-11-03,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-11-03,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-11-03,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-11-03,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-11-03,82
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-11-03,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-11-03,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-11-03,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-11-03,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-11-03,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-11-03,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-11-03,19
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-11-03,20
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-11-03,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-11-03,24
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-11-03,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-11-03,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-11-03,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-11-03,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-10-27,14
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-10-27,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-10-27,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-10-27,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-10-27,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-10-27,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-10-27,52
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-10-27,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-10-27,31
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-10-27,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-10-27,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-10-27,137
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-10-27,47
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-10-27,25
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-10-27,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-10-27,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-10-27,17
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-10-27,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-10-27,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-10-27,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-10-27,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-10-27,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-10-27,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-10-27,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-10-27,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-10-27,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-10-27,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-10-20,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-10-20,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-10-20,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-10-20,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-10-20,29
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-10-20,16
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-10-20,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-10-20,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-10-20,93
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-10-20,39
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-10-20,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-10-20,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-10-20,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-10-20,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-10-20,10
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-10-20,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-10-20,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-10-20,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-10-20,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-10-13,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002987,Keynsham East,msoa,2020-10-13,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-10-13,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-10-13,13
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-10-13,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-10-13,29
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-10-13,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-10-13,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-10-13,123
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-10-13,37
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-10-13,29
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-10-13,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-10-13,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-10-13,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003002,Combe Down,msoa,2020-10-13,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-10-13,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-10-13,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-10-13,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-10-13,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-10-13,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-10-06,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-10-06,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-10-06,15
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-10-06,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-10-06,57
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-10-06,42
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-10-06,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-10-06,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-10-06,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003001,Bloomfield,msoa,2020-10-06,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003003,Odd Down,msoa,2020-10-06,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-10-06,9
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-10-06,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-10-06,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-10-06,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-09-29,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002990,Walcot,msoa,2020-09-29,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-09-29,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-09-29,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-09-29,12
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-09-29,8
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-09-29,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-09-29,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-09-29,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002993,Kingsmead,msoa,2020-09-22,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-09-22,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-09-22,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-09-22,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002998,Oldfield Park East,msoa,2020-09-22,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003005,"Chew, Bishop Sutton & East Harptree",msoa,2020-09-22,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-09-15,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-09-15,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-09-08,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-09-08,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-09-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-09-01,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-08-25,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-08-25,11
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003010,Westfield,msoa,2020-08-25,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-08-18,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003009,Midsomer Norton North,msoa,2020-08-18,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002988,Lambridge & Fairfield Park,msoa,2020-06-02,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-05-12,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-05-12,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-05-05,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002999,Southdown,msoa,2020-05-05,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-05-05,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-05-05,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003006,Peasedown & Bathavon West,msoa,2020-05-05,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-04-28,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-04-28,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-04-28,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003004,"Pensford, Clutton & Temple Cloud",msoa,2020-04-28,6
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-04-28,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-04-21,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-04-21,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-04-21,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002994,Bathavon North & South,msoa,2020-04-21,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002995,Twerton,msoa,2020-04-21,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002997,Oldfield Park West,msoa,2020-04-21,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003008,Radstock,msoa,2020-04-21,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002985,Keynsham North,msoa,2020-04-14,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002986,Keynsham South,msoa,2020-04-14,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-04-14,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-04-14,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002992,Newbridge,msoa,2020-04-14,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-04-14,7
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003011,Midsomer Norton Redfield,msoa,2020-04-14,4
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002991,Central Bath & Lansdown,msoa,2020-04-07,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002996,"Widcombe, Bathwick Hill & Claverton Down",msoa,2020-04-07,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003000,"Saltford, Farmborough & Timsbury",msoa,2020-04-07,3
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-04-07,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02002989,Weston,msoa,2020-03-31,5
+E12000009,South West,E06000022,Bath and North East Somerset,E06000022,Bath and North East Somerset,E02003007,High Littleton & Paulton,msoa,2020-03-31,3
