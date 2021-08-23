@@ -20,7 +20,7 @@ map_MSOA = st_read('./data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Sup
 
 ```
 ## Reading layer `Middle_Layer_Super_Output_Areas_2011' from data source 
-##   `C:\Users\trs35\OneDrive - University of Bath\SummerSchool\SpatialHealthOGH\Data\Middle_Layer_Super_Output_Areas_2011\Middle_Layer_Super_Output_Areas_2011.shp' 
+##   `C:\Users\trs35\OneDrive - University of Bath\SummerSchool\SpatialHealthOGH\Challange_Question\Data\Middle_Layer_Super_Output_Areas_2011\Middle_Layer_Super_Output_Areas_2011.shp' 
 ##   using driver `ESRI Shapefile'
 ## Simple feature collection with 7201 features and 6 fields
 ## Geometry type: MULTIPOLYGON
