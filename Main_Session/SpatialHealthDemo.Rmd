@@ -100,3 +100,10 @@ ggplot() +
 ```
 
 
+
+### Package versions
+```{r}
+sapply(sessionInfo()$otherPkgs, function(x){x$Version})
+```
+
+
