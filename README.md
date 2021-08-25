@@ -5,7 +5,7 @@ Materials for Analysing Spatiotemporal Health Data session of the [Open Geo Hub 
 I will use the following packages during my session
 - spdep
 - sf
-- tidyverse (or ggplot2, tidyr and dplyr...not strictly necessary if you prefer to DIY the data manipulatin and plotting)
+- tidyverse (or ggplot2, tidyr and dplyr...not strictly necessary if you prefer to DIY the data manipulation and plotting)
 - INLA This is not on CRAN. You can download it by running the following in your R console
 
 ```{r}
