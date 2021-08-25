@@ -15,8 +15,8 @@ In the slides for the main session, I also use the gridExtra and effects package
 
 
 ## Challange Question
-This folder contains the data behind the motivating example for my challange question. See more here https://docs.google.com/document/d/1QfuvSjX6iL9ZTCmFsBeCakB3nEIJExd4RmDFjSKIcOc/edit?usp=sharing
+This folder contains the data behind the motivating example for my challange question. The question itself is in [this Google doc]( https://docs.google.com/document/d/1QfuvSjX6iL9ZTCmFsBeCakB3nEIJExd4RmDFjSKIcOc/edit?usp=sharing).
 
 
 ## Main Session 
-This folder contains the materials for the session, taking place on Friday 3 September. A first draft of the slides can be viewed here: https://bit.ly/3krot0i
+This folder contains the materials for the session, taking place on Friday 3 September. A first draft of the slides [can be viewed here](https://bit.ly/3krot0i).
