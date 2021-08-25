@@ -11,8 +11,11 @@ output: slidy_presentation
 - Motivating example
 - Background on modelling areal health data
 - Demo with R-INLA
-  - Code to follow along on [my GitHub](https://github.com/smithtr/SpatialHealthOGH). 
+  - Link to fill-in-the-blank R notebook for demo [my GitHub](https://github.com/smithtr/SpatialHealthOGH).
 - Extensions 
+
+
+Link to full code in slides on [my GitHub](https://github.com/smithtr/SpatialHealthOGH).
 
 ```{r, include = FALSE}
 library(tidyverse)

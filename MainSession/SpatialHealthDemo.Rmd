@@ -1,0 +1,99 @@
+---
+title: "London Modelling Notebook"
+author: "You!"
+output:
+  html_document: 
+    keep_md: yes
+---
+
+
+
+## Set up covered so far in the slides
+Load up packages and the data
+```{r}
+library(tidyverse)
+library(sf)
+library(INLA)
+library(spdep)
+## effects and gridExtra used in slides but not really required
+
+download.file('https://github.com/smithtr/SpatialHealthOGH/raw/main/MainSession/Data/LondonMSOA.zip',
+              'LondonMSOA.zip')
+unzip('LondonMSOA.zip')
+
+MSOA_London = st_read('./LondonMSOA/London_MSOAs_Vaccines.shp')
+London_Vax = select(MSOA_London, vax_rate, n, IMD,young, old, geometry)%>%
+  mutate(Y = round(vax_rate/100*n, digits = 0))
+
+head(London_Vax)
+
+```
+
+Basic GLM
+```{r}
+logit_base = glm(cbind(Y, n-Y)~ IMD+ I(IMD^2)+ old + young*I(young<0.4),
+                 data = London_Vax, family = 'binomial')
+```
+
+
+Making the adjacency matrix for London
+```{r}
+London_NB = poly2nb(MSOA_London)
+London_W = nb2mat(London_NB, style = 'B')
+```
+
+
+Add in some columns for random effects index:
+```{r}
+London_Vax_INLA = mutate(London_Vax, IDv = 1:nrow(London_Vax), IDu = IDv)
+```
+
+
+## Modelling with R-INLA
+### Fit the INLA model
+
+I've given you the general structure for the call. Fill in the RHS of the formula
+```{r, eval = FALSE}
+London_BYM = inla(Y ~ ..., 
+                  Ntrials = n, data = London_Vax_INLA, family = 'binomial')
+```
+
+### Posterior summaries
+Various ways to look at the output of INLA
+
+```{r, eval = FALSE}
+names(INLA)
+plot(London_BYM)
+London_BYM$summary.fixed
+London_BYM$summary.hyperpar
+London_BYM$summary.random
+```
+
+Plot of spatial random effect
+```{r, eval = FALSE}
+London_Vax$u = London_BYM$summary.random$IDu$mean
+ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = u))
+```
+
+### Exceedence
+```{r}
+London_BYMv2 = inla(Y ~ IMD+ I(IMD^2)+ old + young*I(young<0.4) + f(IDu, model = "bym", graph = London_W),
+                    Ntrials = n, data = London_Vax_INLA, family = 'binomial')
+
+?inla.pmarginal
+```
+
+Choose your own cutoff
+```{r, eval = FALSE}
+exceed_probs = vector(length = nrow(London_Vax))
+for(i in 1:nrow(London_Vax)) exceed_probs[i] = inla.pmarginal(q = ...., marginal = London_BYMv2$marginals.random$ID[[i]])
+
+London_Vax$exceed_probs =  exceed_probs
+
+ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = exceed_probs))
+
+```
+
+
