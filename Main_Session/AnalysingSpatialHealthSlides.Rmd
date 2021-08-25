@@ -11,11 +11,11 @@ output: slidy_presentation
 - Motivating example
 - Background on modelling areal health data
 - Demo with R-INLA
-  - Link to fill-in-the-blank R notebook for demo [my GitHub](https://github.com/smithtr/SpatialHealthOGH).
+  - Link to fill-in-the-blank R notebook for demo on [my GitHub](https://github.com/smithtr/SpatialHealthOGH/blob/main/Main_Session/SpatialHealthDemo.Rmd).
 - Extensions 
 
 
-Link to full code in slides on [my GitHub](https://github.com/smithtr/SpatialHealthOGH).
+Link to full code in slides also on [my GitHub](https://github.com/smithtr/SpatialHealthOGH/blob/main/Main_Session/AnalysingSpatialHealthSlides.Rmd).
 
 ```{r, include = FALSE}
 library(tidyverse)
@@ -32,14 +32,7 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 ```
 
 
-## Motivating example: Uptake of first dose of COVID-19 Vaccines in London MSOAs
-
-
-```{r, eval = FALSE, echo = TRUE}
-MSOA_London = st_read('./Data/LondonMSOA/London_MSOAs_Vaccines.shp')
-London_Vax = select(MSOA_London, vax_rate, n, IMD, young, old, geometry)%>%
-  mutate(Y = round(vax_rate/100*n, digits = 0))
-```
+## Uptake of first dose of COVID-19 Vaccines in London MSOAs {.incremental}
 
 
 ```{r, fig.height = 5, fig.width =9}
@@ -50,11 +43,12 @@ ggplot() +
   theme(text = element_text(size=20))
 ```
 
-* Percent adults (16+) who received first dose in London MSOAs up to 22 August.
+* Percent adults (16+) who received first dose in London MSOAs up to 22 August. 
   - From the [UK Covid Data Dashboard](https://coronavirus.data.gov.uk/).
-* Clear spatial pattern with higher rates on the outskirts than in the centre.
-   - What socio-demographic characteristics explain this spatial pattern?
-   - Are there any 'at risk' areas?
+* Clear spatial pattern with higher rates on the outskirts than in the center.
+  - What socio-demographic characteristics explain this spatial pattern? Are there any 'at risk' areas?
+   
+
 
 ## Philosophy of spatial modelling {.incremental}
 
@@ -213,7 +207,7 @@ W
 
 ::::
 
-- The  `spdep` package had tools for making the adjacency matrix from a spatial object
+- The  `spdep` package has tools for making the adjacency matrix from a spatial object
 ```{r, echo = TRUE}
 London_NB = poly2nb(MSOA_London)
 London_W = nb2mat(London_NB, style = 'B')
@@ -235,7 +229,7 @@ where $H$ is some distribution with spatial structure.
 
 
 
-- Classical choice for $H$ is the intrinsic conditional autoregressive model (ICAR), specified by a set of conditionals
+- Classical choice for $H$ is the intrinsic conditional auto-regressive model (ICAR), specified by a set of conditionals
 
 \begin{align*}
 u_i \mid \mathbf{u}_{-i}\sim \mathsf{N}\left( \frac{\sum_{j} W_{ij} u_j}{\sum_j W_{ij}}, \frac{\tau^2}{\sum_j W_{ij}} \right) = \mathsf{N}\left( \frac{\sum_{j\in \mathrm{nb}(i)}  u_j}{|\mathrm{nb}(i)|}, \frac{\tau^2}{|\mathrm{nb}(i)|} \right),
@@ -258,12 +252,12 @@ in Bayesian hierarchical models with latent Gaussian components:
 \theta & \sim \pi(\theta).
 \end{align*}
 
-- Tailored for fast approximations when $\Sigma^{-1}(\theta_2)$ is sparse.
+- Tailored for fast approximations of $\pi(u_i \mid \mathbf{y})$ and $\pi(\theta_i \mid \mathbf{y})$ when $\Sigma^{-1}(\theta_2)$ is sparse.
 
 - Model syntax is similar to `lm` or `glm` with latent models encoded using `f(, model = )`
-  - `f(, mode = 'iid')` for v.
-  - `f(, mode = 'besag', graph = )` for u.
-  - `f(, mode = 'bym', graph = )` to do both all in one.
+  - `f(i, mode = 'iid')` for v.
+  - `f(i, mode = 'besag', graph = )` for u.
+  - `f(i, mode = 'bym', graph = )` to do both all in one.
 
 
 
@@ -341,11 +335,12 @@ gridExtra::grid.arrange(pu, pv, nrow = 1)
 Negative values: odds of vaccination lower than we would expect given deprivation and age structure.
 
 
-## Exceedence
+## Identifying concerning areas {.incremental}
 Question: which MSOAs have substantially lower odds of vaccination after accounting for
 deprivation and age structure?
 
-$$p( u_i+v_i < \text{threshold})$$
+$$p(v_i+u_i < \text{threshold})$$
+
 Can calculate such quantities with `inla.pmarginal`
 
 ```{r, echo = TRUE, cache = TRUE}
@@ -354,7 +349,6 @@ London_BYMv2 = inla(Y ~ IMD+ I(IMD^2)+ old + young*I(young<0.4) + f(IDu, model =
 
 exceed_probs = vector(length = nrow(London_Vax))
 for(i in 1:nrow(London_Vax)) exceed_probs[i] = inla.pmarginal(q = -0.5, marginal = London_BYMv2$marginals.random$ID[[i]])
-
 London_Vax$exceed_probs =  exceed_probs
 ```
 
@@ -365,4 +359,56 @@ ggplot() +
   theme_bw()+ ggtitle('Areas with lower than expected vaccination rates')+
   guides(fill=guide_legend(title='p(u+v< -0.5)'))+theme(text = element_text(size=20))
 ```
+
+
+
+## Caveats {.incremental}
+
+- Exceedence calculations depend on our regression model being correct. 
+
+- Regression coefficients are ***ecological*** log odds ratios.  Interpreting them 
+as an individual-level association corresponds to a belief that the average exposure is causative.
+
+- Attempting to infer individual-level effects from group-level (here, MSOA-level)
+data is called the ***ecological fallacy***.
+
+- One should be cautions about over-interpreting spatial regression, but area-level analysis can add to the totality of evidence
+for a hypothesis.
+
+
+
+## Extensions {.incremental}
+
+- There is nothing special about the binomial model here. Poisson is more common
+for rare health outcomes (e.g., cancer incidence or mortality).
+
+- Can add temporal random effects and space-time interactions. For example
+
+\begin{align*}
+y_{it} & \sim \mathsf{Binom}(N_{it}, \theta_{it}),\\
+\mathrm{logit}(\theta_{it}) & = x'_{it} \beta + v_i + u_i + b_t + d_{it},\\
+\mathbf{b} & \sim \mathsf{AR1}(\rho, \kappa),\\
+\mathbf{d} & \sim \mathsf{N}(0, \Sigma_S \otimes \Sigma_T)
+\end{align*}
+
+- These types of models are also available in `inla`
+  - `f(t, model = 'ar1')` other options are `f(t, model = 'rw1')` or `f(t, model = 'rw2')`   
+  - `f(i, model = 'besag', graph = , group = t, control.group = list(model = 'ar1'))`
+
+- Active research areas
+  - Prior specification for fixed effects and variances (which I totally ignored)
+  - Continuous spatial models for $u$ such as $u \sim \mathsf{GP}$ via INLA-SPDE
+
+## Resources
+
+- INLA webpage: https://www.r-inla.org/examples-tutorials
+- Paula Moraga's book [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](https://www.paulamoraga.com/book-geospatial/)
+- Virgilio Gómez-Rubio book [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/)
+
+  
+###  Thank you!
+Get in touch with me
+
+- email: t.r.smith@bath.ac.uk
+- Twitter: @TheresaRSmith
 
