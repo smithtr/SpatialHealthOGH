@@ -17,9 +17,12 @@ library(INLA)
 library(spdep)
 ## effects and gridExtra used in slides but not really required
 
-download.file('https://github.com/smithtr/SpatialHealthOGH/raw/main/MainSession/Data/LondonMSOA.zip',
+## only need to do this once, can also do it manually from the GitHub page
+if(!any(grepl('LondonMSOA',list.files()))){
+  download.file('https://github.com/smithtr/SpatialHealthOGH/raw/main/Main_Session/Data/LondonMSOA.zip',
               'LondonMSOA.zip')
-unzip('LondonMSOA.zip')
+  unzip('LondonMSOA.zip')
+}
 
 MSOA_London = st_read('./LondonMSOA/London_MSOAs_Vaccines.shp')
 London_Vax = select(MSOA_London, vax_rate, n, IMD,young, old, geometry)%>%

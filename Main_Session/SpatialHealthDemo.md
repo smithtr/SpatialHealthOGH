@@ -105,16 +105,19 @@ library(spdep)
 ```r
 ## effects and gridExtra used in slides but not really required
 
-download.file('https://github.com/smithtr/SpatialHealthOGH/raw/main/MainSession/Data/LondonMSOA.zip',
+## only need to do this once, can also do it manually from the GitHub page
+if(!any(grepl('LondonMSOA',list.files()))){
+  download.file('https://github.com/smithtr/SpatialHealthOGH/raw/main/Main_Session/Data/LondonMSOA.zip',
               'LondonMSOA.zip')
-unzip('LondonMSOA.zip')
+  unzip('LondonMSOA.zip')
+}
 
 MSOA_London = st_read('./LondonMSOA/London_MSOAs_Vaccines.shp')
 ```
 
 ```
 ## Reading layer `London_MSOAs_Vaccines' from data source 
-##   `C:\Users\trs35\OneDrive - University of Bath\SummerSchool\SpatialHealthOGH\MainSession\LondonMSOA\London_MSOAs_Vaccines.shp' 
+##   `C:\Users\trs35\OneDrive - University of Bath\SummerSchool\SpatialHealthOGH\Main_Session\LondonMSOA\London_MSOAs_Vaccines.shp' 
 ##   using driver `ESRI Shapefile'
 ## Simple feature collection with 983 features and 20 fields
 ## Geometry type: MULTIPOLYGON
