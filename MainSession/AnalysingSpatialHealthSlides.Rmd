@@ -1,0 +1,175 @@
+---
+title: 'Analysing Spatiotemporal Health Data'
+author: 'Theresa Smith'
+date: 'Friday 3 September 2021'
+output: slidy_presentation
+---
+
+## Plan for this session
+
+
+- Motivating example
+- Background on modelling areal health data
+- Demo with R-INLA
+
+- Code to follow along on [my GitHub](https://github.com/smithtr/SpatialHealthOGH). 
+
+
+```{r, include = FALSE}
+library(tidyverse)
+library(sf)
+library(INLA)
+library(spdep)
+## effects and gridExtra packages required for exploratory plots
+
+MSOA_London = st_read('./Data/LondonMSOA/London_MSOAs_Vaccines.shp')
+London_Vax = select(MSOA_London, vax_rate, n, IMD,young, old, geometry)%>%
+  mutate(Y = round(vax_rate/100*n, digits = 0))
+
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE) 
+```
+
+```{r, eval = FALSE, echo = TRUE}
+MSOA_London = st_read('./Data/LondonMSOA/London_MSOAs_Vaccines.shp')
+London_Vax = select(MSOA_London, vax_rate, n, IMD, young, old, geometry)%>%
+  mutate(Y = round(vax_rate/100*n, digits = 0))
+```
+
+
+
+## Motivating example: Uptake of first dose of COVID-19 Vaccines in London MSOAs
+```{r, fig.height = 6, fig.width =9}
+ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = vax_rate)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+   theme_bw()+guides(fill=guide_legend(title="% vaccinated"))+
+  theme(text = element_text(size=20))
+```
+
+* Percent adults (16+) who received first dose in London MSOAs up to 22 August.
+  - From the [UK Covid Data Dashboard](https://coronavirus.data.gov.uk/).
+* Clear spatial pattern with higher rates on the outskirts than in the centre.
+
+## Philosophy of spatial modelling {.incremental}
+
+- If we were omniscient and could measure everything:
+```{r, eval = FALSE, echo = TRUE}
+vax_rate ~ f(feature1, feature2,..., feature100)
+```
+
+
+- Since we aren't omniscient, we add some error:
+```{r, eval = FALSE, echo = TRUE}
+vax_rate ~ f(feature1, feature2, feature3) + error
+```
+
+
+- If our data have some structure, we add in some random effects:
+```{r, eval = FALSE, echo = TRUE}
+vax_rate ~ f(feature1, feature2, feature3) + error + re(structure)
+```
+
+## Features in our example
+```{r, fig.height = 6, fig.width =18}
+p1 = ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = IMD)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+  theme_bw()+ ggtitle('Deprivation')+
+  theme(text = element_text(size=20))
+
+p2 = ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = 100*young)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+  theme_bw()+ ggtitle('Percent aged 15 - 34')+
+  guides(fill=guide_legend(title="%"))+
+  theme(text = element_text(size=20))
+
+
+p3 = ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = 100*old)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+  theme_bw()+ ggtitle('Percent aged 65 +')+
+  guides(fill=guide_legend(title="%"))+
+  theme(text = element_text(size=20))
+
+
+gridExtra::grid.arrange(p1,p3,p2, nrow = 1)
+```
+
+- Mid 2019 proportion of population 15 - 34 and 65+ from the [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/middlesuperoutputareamidyearpopulationestimates)
+- 2019 Deprivation from ONS, up-scaled by the [University of Sheffield](https://research.mysociety.org/sites/imd2019/about/)
+
+## Initial modelling  {.incremental}
+
+```{r, fig.height = 4, fig.width =12}
+select(London_Vax, vax_rate, IMD, old, young)%>%st_drop_geometry()%>%
+  gather(variable, value, -vax_rate)%>%
+  mutate(variablef = factor(variable, labels = c('IMD','% 65+', '% 15-34')))%>%
+  ggplot(aes(x = value, y = vax_rate/100))+geom_point()+ theme_bw()+ 
+  geom_smooth(se = FALSE)+facet_wrap(~variablef, scale = 'free_x')+
+  theme(text = element_text(size=20))+xlab('')+ylab('percent vaccinated')+
+  scale_y_continuous(trans = 'logit')
+
+```
+
+
+```{r, echo = TRUE}
+logit_base = glm(cbind(Y, n-Y)~ IMD+ I(IMD^2)+ old + young*I(young<0.4), data = London_Vax, family = 'binomial')
+```
+
+```{r,  fig.height = 4, fig.width =12}
+
+
+pe1 = data.frame(effects::effect('IMD',logit_base, xlevels = 10))%>%
+  ggplot(aes(x = IMD, y = fit))+xlab('IMD')+ggtitle('')+
+  ylab('percent vaccinated')+ geom_line(col = 'blue', lwd = 1.5)+ 
+  scale_y_continuous(trans = 'logit')+
+  theme_bw()+ theme(text = element_text(size=20))
+
+
+pe2 = data.frame(effects::effect('old',logit_base, xlevels = 10))%>%
+  ggplot(aes(x = old, y = fit))+xlab('% 65+')+ ggtitle('')+
+  ylab('percent vaccinated')+ geom_line(col = 'blue', lwd = 1.5)+ 
+  scale_y_continuous(trans = 'logit')+
+  theme_bw()+ theme(text = element_text(size=20))
+
+
+pe3 = data.frame(effects::effect('young',logit_base, xlevels = 15))%>%
+  ggplot(aes(x = young, y = fit))+xlab('% 15 - 34+')+ ggtitle('')+
+  ylab('percent vaccinated')+ geom_line(col = 'blue', lwd = 1.5)+ 
+  scale_y_continuous(trans = 'logit')+
+  theme_bw()+ theme(text = element_text(size=20))
+
+
+gridExtra::grid.arrange(pe1,pe2,pe3, nrow = 1)
+
+```
+
+
+## Residuals  {.incremental}
+
+```{r}
+London_Vax$residual = residuals(logit_base, 'response')*100
+ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = residual)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+   theme_bw()+guides(fill=guide_legend(title="residual"))+
+  theme(text = element_text(size=20))
+```
+
+Reminder of our general strategy:
+```{r, eval = FALSE, echo = TRUE}
+vax_rate ~ f(feature1, feature2, feature3) + error + re(structure)
+```
+
+
+
+## Modelling Areal Health Data  {.incremental}
+
+- Suppose we have $m$ non overlapping areas $A_i, \dots, A_m$ and $y_i$ is the number of cases or events in area $A_i$.
+- Classical spatial health models are based on the adjacency matrix $W$ where $w_{ij} = 1$ if $A_i$ and $A_j$ share a border.
+
+
+
+
+
