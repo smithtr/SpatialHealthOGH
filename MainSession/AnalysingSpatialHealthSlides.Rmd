@@ -11,9 +11,8 @@ output: slidy_presentation
 - Motivating example
 - Background on modelling areal health data
 - Demo with R-INLA
-
-- Code to follow along on [my GitHub](https://github.com/smithtr/SpatialHealthOGH). 
-
+  - Code to follow along on [my GitHub](https://github.com/smithtr/SpatialHealthOGH). 
+- Extensions 
 
 ```{r, include = FALSE}
 library(tidyverse)
@@ -29,6 +28,10 @@ London_Vax = select(MSOA_London, vax_rate, n, IMD,young, old, geometry)%>%
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE) 
 ```
 
+
+## Motivating example: Uptake of first dose of COVID-19 Vaccines in London MSOAs
+
+
 ```{r, eval = FALSE, echo = TRUE}
 MSOA_London = st_read('./Data/LondonMSOA/London_MSOAs_Vaccines.shp')
 London_Vax = select(MSOA_London, vax_rate, n, IMD, young, old, geometry)%>%
@@ -36,9 +39,7 @@ London_Vax = select(MSOA_London, vax_rate, n, IMD, young, old, geometry)%>%
 ```
 
 
-
-## Motivating example: Uptake of first dose of COVID-19 Vaccines in London MSOAs
-```{r, fig.height = 6, fig.width =9}
+```{r, fig.height = 5, fig.width =9}
 ggplot() + 
   geom_sf(data = London_Vax, aes(fill = vax_rate)) + 
   scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
@@ -49,6 +50,8 @@ ggplot() +
 * Percent adults (16+) who received first dose in London MSOAs up to 22 August.
   - From the [UK Covid Data Dashboard](https://coronavirus.data.gov.uk/).
 * Clear spatial pattern with higher rates on the outskirts than in the centre.
+   - What socio-demographic characteristics explain this spatial pattern?
+   - Are there any 'at risk' areas?
 
 ## Philosophy of spatial modelling {.incremental}
 
@@ -215,27 +218,37 @@ London_W = nb2mat(London_NB, style = 'B')
 
 
 
-## Spatial Generalised Linear Mixed Model 
+## Spatial Generalised Linear Mixed Model {.incremental}
+
 - Spatial logistic model
+
 \begin{align*}
 y_i & \sim \mathsf{Binom}(N_i, \theta_i),\\
 \mathrm{logit}(\theta_i) & = x'_i \beta + v_i + u_i,\\
-\mathbf{v} & \sim \mathsf{N}(0, \sigma^2_v),\\
+\mathbf{v} & \sim \mathsf{N}(0, \gamma^{-2}),\\
 \mathbf{u} & \sim \mathsf{H}
 \end{align*}
 where $H$ is some distribution with spatial structure.
-- Classical choice for $H$ is the intrinsic ICAR, specified by a set of conditionals
+
+
+
+- Classical choice for $H$ is the intrinsic conditional autoregressive model (ICAR), specified by a set of conditionals
+
 \begin{align*}
 u_i \mid \mathbf{u}_{-i}\sim \mathsf{N}\left( \frac{\sum_{j} W_{ij} u_j}{\sum_j W_{ij}}, \frac{\tau^2}{\sum_j W_{ij}} \right) = \mathsf{N}\left( \frac{\sum_{j\in \mathrm{nb}(i)}  u_j}{|\mathrm{nb}(i)|}, \frac{\tau^2}{|\mathrm{nb}(i)|} \right),
 \end{align*}
 where $\mathrm{nb}(i)$ is the set of areas that neighbor area $i$. 
+
+
 - This is called the BYM model after Besag, York, and Mollié (1991). "Bayesian image restoration, with two applications in spatial statistics." doi:10.1007/BF00116466.
 
-## BYM implementation in INLA
+## BYM implementation in INLA {.incremental}
+
 - The BYM model can be fit using MCMC (see for example `CARBayes`) or `INLA`.
 
 - INLA is a general tool for approximating marginal posterior distributions
-in Bayesian hierarchical models with a latent Gaussian component: 
+in Bayesian hierarchical models with latent Gaussian components: 
+
 \begin{align*}
 \mathbf{y}  \sim f(\mathbf{u}, \theta_1), \qquad
 \mathbf{u}  \sim \mathsf{N}(0, \Sigma(\theta_2)), \qquad 
@@ -246,27 +259,37 @@ in Bayesian hierarchical models with a latent Gaussian component:
 
 - Model syntax is similar to `lm` or `glm` with latent models encoded using `f(, model = )`
   - `f(, mode = 'iid')` for v.
-  - `f(, mode = 'besag')` for u.
-  - `f(, mode = 'bym')` to do both all in one.
+  - `f(, mode = 'besag', graph = )` for u.
+  - `f(, mode = 'bym', graph = )` to do both all in one.
 
 
 
-## BYM London Data
-First need to add in some columns for random effects index:
+## Demo
+
+This slide is here to remind me to switch over to a live demo!
+
+
+![](https://media.giphy.com/media/IoP0PvbbSWGAM/source.gif?cid=790b7611d60dfc8de6fce4004ec75faf4805f73995af13f7&rid=source.gif&ct=g)
+
+
+## BYM London Data {.incremental}
+
+- First need to add in some columns for random effects index:
 
 ```{r, echo = TRUE}
 London_Vax_INLA = mutate(London_Vax, IDv = 1:nrow(London_Vax), IDu = IDv)
 ```
 
-Next, run INLA!
+- Next, run INLA!
 ```{r, echo = TRUE, cache = TRUE}
 London_BYM = inla(Y ~ IMD+ I(IMD^2)+ old + young*I(young<0.4) + f(IDv, model = 'iid')+
                     f(IDu, model = "besag", graph = London_W), Ntrials = n,
                      data = London_Vax_INLA, family = 'binomial')
+London_BYM$summary.fixed[c('mean','sd','0.025quant','0.975quant')]
 ```
 
 
-Compare regression coefficients to the GLM estimates
+- Compare regression coefficients to the GLM estimates
 
 ```{r}
 estimates = rbind(logit_base$coefficients, London_BYM$summary.fixed$mean)
@@ -278,24 +301,65 @@ colnames(estimates)= c('Int', 'IMD', 'IMD^2', '%65+', '%15-34', '%15-34<0.4',
 signif(estimates,2)
 ```
 
-## Random Effects
-```{r, fig.width = 7, fig.height=4}
+## Random Effects {.incremental}
+
+- Posterior summaries of $\gamma^2$ and $\tau^2$ (which are precisions rather than variances)
+
+```{r, echo = TRUE}
+London_BYM$summary.hyperpar[c('mean','sd','0.025quant','0.975quant')]
+```
+
+- Extract and inspect $\hat v$'s and $\hat u$'s
+
+```{r, echo = TRUE}
 London_Vax$v = London_BYM$summary.random$IDv$mean
 London_Vax$u = London_BYM$summary.random$IDu$mean
+```
+
+
+```{r, fig.width = 12, fig.height=4}
 
 pu = ggplot() + 
   geom_sf(data = London_Vax, aes(fill = v)) + 
   scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
   theme_bw()+ ggtitle('Independent Random Effect')+
-  theme(text = element_text(size=20))
+  theme(text = element_text(size=18))
 
 pv = ggplot() + 
   geom_sf(data = London_Vax, aes(fill = u)) + 
   scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
   theme_bw()+ ggtitle('Spatial Random Effect')+
-  theme(text = element_text(size=20))
+  theme(text = element_text(size=18))
 
 
 gridExtra::grid.arrange(pu, pv, nrow = 1)
+```
+
+Negative values: odds of vaccination lower than we would expect given deprivation and age structure.
+
+
+## Exceedence
+Question: which MSOAs have substantially lower odds of vaccination after accounting for
+deprivation and age structure?
+
+$$p( u_i+v_i < \text{threshold})$$
+Can calculate such quantities with `inla.pmarginal`
+
+```{r, echo = TRUE, cache = TRUE}
+London_BYMv2 = inla(Y ~ IMD+ I(IMD^2)+ old + young*I(young<0.4) + f(IDu, model = "bym", graph = London_W),
+                    Ntrials = n, data = London_Vax_INLA, family = 'binomial')
+
+exceed_probs = vector(length = nrow(London_Vax))
+for(i in 1:nrow(London_Vax)) exceed_probs[i] = inla.pmarginal(q = -0.5, marginal = London_BYMv2$marginals.random$ID[[i]])
+
+London_Vax$exceed_probs =  exceed_probs
+```
+
+```{r, fig.height = 5, fig.width =9}
+ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = exceed_probs)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+  theme_bw()+ ggtitle('Areas with lower than expected vaccination rates')+
+  guides(fill=guide_legend(title='p(u+v< -0.5)'))+theme(text = element_text(size=20))
 ```
 
