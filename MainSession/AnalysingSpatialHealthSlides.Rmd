@@ -167,9 +167,135 @@ vax_rate ~ f(feature1, feature2, feature3) + error + re(structure)
 ## Modelling Areal Health Data  {.incremental}
 
 - Suppose we have $m$ non overlapping areas $A_i, \dots, A_m$ and $y_i$ is the number of cases or events in area $A_i$.
+
 - Classical spatial health models are based on the adjacency matrix $W$ where $w_{ij} = 1$ if $A_i$ and $A_j$ share a border.
 
 
+:::: {style="display: flex;"}
+
+::: {}
 
 
+```{r, fig.height = 4, fig.width = 5}
+par(mar = c(0,0,0,0))
+example_poly =   MSOA_London[MSOA_London$UtlaName == 'Westminster',][1:10,]
+example_nb = poly2nb(example_poly)
+
+plot(st_geometry(example_poly), col = c(sf.colors(4,
+                                                  categorical = TRUE),
+                                        rep('gray', 6)))
+plot(example_nb,st_geometry(st_centroid(example_poly)), add = TRUE,
+     pch = 15)
+
+```
+:::
+
+::: {}
+
+Snippet of the spatial adjacency matrix
+
+
+```{r}
+example_graph = nb2mat(example_nb, style = 'B')
+
+W = example_graph[1:4, 1:4]
+colnames(W) = c('G','O','B','P')
+rownames(W) = c('G','O','B','P')
+W
+```
+:::
+
+::::
+
+- The  `spdep` package had tools for making the adjacency matrix from a spatial object
+```{r, echo = TRUE}
+London_NB = poly2nb(MSOA_London)
+London_W = nb2mat(London_NB, style = 'B')
+```
+
+
+
+## Spatial Generalised Linear Mixed Model 
+- Spatial logistic model
+\begin{align*}
+y_i & \sim \mathsf{Binom}(N_i, \theta_i),\\
+\mathrm{logit}(\theta_i) & = x'_i \beta + v_i + u_i,\\
+\mathbf{v} & \sim \mathsf{N}(0, \sigma^2_v),\\
+\mathbf{u} & \sim \mathsf{H}
+\end{align*}
+where $H$ is some distribution with spatial structure.
+- Classical choice for $H$ is the intrinsic ICAR, specified by a set of conditionals
+\begin{align*}
+u_i \mid \mathbf{u}_{-i}\sim \mathsf{N}\left( \frac{\sum_{j} W_{ij} u_j}{\sum_j W_{ij}}, \frac{\tau^2}{\sum_j W_{ij}} \right) = \mathsf{N}\left( \frac{\sum_{j\in \mathrm{nb}(i)}  u_j}{|\mathrm{nb}(i)|}, \frac{\tau^2}{|\mathrm{nb}(i)|} \right),
+\end{align*}
+where $\mathrm{nb}(i)$ is the set of areas that neighbor area $i$. 
+- This is called the BYM model after Besag, York, and Mollié (1991). "Bayesian image restoration, with two applications in spatial statistics." doi:10.1007/BF00116466.
+
+## BYM implementation in INLA
+- The BYM model can be fit using MCMC (see for example `CARBayes`) or `INLA`.
+
+- INLA is a general tool for approximating marginal posterior distributions
+in Bayesian hierarchical models with a latent Gaussian component: 
+\begin{align*}
+\mathbf{y}  \sim f(\mathbf{u}, \theta_1), \qquad
+\mathbf{u}  \sim \mathsf{N}(0, \Sigma(\theta_2)), \qquad 
+\theta & \sim \pi(\theta).
+\end{align*}
+
+- Tailored for fast approximations when $\Sigma^{-1}(\theta_2)$ is sparse.
+
+- Model syntax is similar to `lm` or `glm` with latent models encoded using `f(, model = )`
+  - `f(, mode = 'iid')` for v.
+  - `f(, mode = 'besag')` for u.
+  - `f(, mode = 'bym')` to do both all in one.
+
+
+
+## BYM London Data
+First need to add in some columns for random effects index:
+
+```{r, echo = TRUE}
+London_Vax_INLA = mutate(London_Vax, IDv = 1:nrow(London_Vax), IDu = IDv)
+```
+
+Next, run INLA!
+```{r, echo = TRUE, cache = TRUE}
+London_BYM = inla(Y ~ IMD+ I(IMD^2)+ old + young*I(young<0.4) + f(IDv, model = 'iid')+
+                    f(IDu, model = "besag", graph = London_W), Ntrials = n,
+                     data = London_Vax_INLA, family = 'binomial')
+```
+
+
+Compare regression coefficients to the GLM estimates
+
+```{r}
+estimates = rbind(logit_base$coefficients, London_BYM$summary.fixed$mean)
+rownames(estimates) = c('GLM', 'INLA')
+
+colnames(estimates)= c('Int', 'IMD', 'IMD^2', '%65+', '%15-34', '%15-34<0.4',
+                       '(%15-34):(%15-34<0.4)')
+
+signif(estimates,2)
+```
+
+## Random Effects
+```{r, fig.width = 7, fig.height=4}
+London_Vax$v = London_BYM$summary.random$IDv$mean
+London_Vax$u = London_BYM$summary.random$IDu$mean
+
+pu = ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = v)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+  theme_bw()+ ggtitle('Independent Random Effect')+
+  theme(text = element_text(size=20))
+
+pv = ggplot() + 
+  geom_sf(data = London_Vax, aes(fill = u)) + 
+  scale_fill_continuous(low="thistle2", high="darkred",guide="colorbar")+
+  theme_bw()+ ggtitle('Spatial Random Effect')+
+  theme(text = element_text(size=20))
+
+
+gridExtra::grid.arrange(pu, pv, nrow = 1)
+```
 
