@@ -9,7 +9,7 @@ I will use the following packages during my session
 - INLA This is not on CRAN. You can download it by running the following in your R console
 
 ```{r}
-install.packages("INLA",repos=c(getOption("repos"),INLA="https://inla.r-inla-download.org/R/stable"), dep=TRUE)
+install.packages("INLA", repos=c(getOption("repos"), INLA="https://inla.r-inla-download.org/R/stable"), dep=TRUE)
 ```
 In the slides for the main session, I also use the gridExtra and effects packages. These are not necessary for following the demo. 
 
@@ -18,5 +18,5 @@ In the slides for the main session, I also use the gridExtra and effects package
 This folder contains the data behind the motivating example for my challange question. See more here https://docs.google.com/document/d/1QfuvSjX6iL9ZTCmFsBeCakB3nEIJExd4RmDFjSKIcOc/edit?usp=sharing
 
 
-## Main Sessionhttps://bit.ly/3krot0i
+## Main Session 
 This folder contains the materials for the session, taking place on Friday 3 September. A first draft of the slides can be viewed here: https://bit.ly/3krot0i
