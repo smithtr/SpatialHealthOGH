@@ -29,11 +29,15 @@ Next get data for the whole local authority: rolling seven day totals, released 
 ```{r}
 cases_bath_all = read_csv('https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&areaCode=E06000022&metric=newCasesBySpecimenDateRollingSum&format=csv')
 ```
-Note: The UK covid-19 API is sometimes down. These above data sets are also available 
-in the data folder on GitHub. 
+Note: The UK covid-19 API is sometimes down, and sometimes the dates change for the weekly release. The versions of the above data sets used to make the figure in the Google Doc are also available in the data folder on GitHub. 
   
   * weely_cases_bath_MSOA contains the MSOA-level rolling seven day totals, released every week.
   * daily_cases_bath_total contains the rolling seven day totals for the whole local authority, released daily
+  
+```{r}
+cases_bath_msoa = read_csv('./Data/weekly_cases_bath_MSOA.csv')
+cases_bath_all = read_csv('./Data/daily_cases_bath_total.csv')
+```
 
  
 Now I extract data for one low week between peaks in April 2021 (lots of censoring)

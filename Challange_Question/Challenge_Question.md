@@ -15,7 +15,7 @@ library(sf)
 Read in the polygon (you will need to download from the data folder first).
 
 ```r
-map_MSOA = st_read('./data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Super_Output_Areas_2011.shp')
+map_MSOA = st_read('./Data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Super_Output_Areas_2011.shp')
 ```
 
 ```
@@ -43,7 +43,7 @@ cases_bath_msoa = read_csv('https://api.coronavirus.data.gov.uk/v2/data?areaType
 ```
 
 ```
-## Rows: 871 Columns: 11
+## Rows: 879 Columns: 11
 ```
 
 ```
@@ -67,6 +67,55 @@ cases_bath_all = read_csv('https://api.coronavirus.data.gov.uk/v2/data?areaType=
 ```
 
 ```
+## Rows: 523 Columns: 5
+```
+
+```
+## -- Column specification --------------------------------------------------------
+## Delimiter: ","
+## chr  (3): areaCode, areaName, areaType
+## dbl  (1): newCasesBySpecimenDateRollingSum
+## date (1): date
+```
+
+```
+## 
+## i Use `spec()` to retrieve the full column specification for this data.
+## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+```
+Note: The UK covid-19 API is sometimes down, and sometimes the dates change for the weekly release. The versions of the above data sets used to make the figure in the Google Doc are also available in the data folder on GitHub. 
+  
+  * weely_cases_bath_MSOA contains the MSOA-level rolling seven day totals, released every week.
+  * daily_cases_bath_total contains the rolling seven day totals for the whole local authority, released daily
+  
+
+```r
+cases_bath_msoa = read_csv('./Data/weekly_cases_bath_MSOA.csv')
+```
+
+```
+## Rows: 871 Columns: 11
+```
+
+```
+## -- Column specification --------------------------------------------------------
+## Delimiter: ","
+## chr  (9): regionCode, regionName, UtlaCode, UtlaName, LtlaCode, LtlaName, ar...
+## dbl  (1): newCasesBySpecimenDateRollingSum
+## date (1): date
+```
+
+```
+## 
+## i Use `spec()` to retrieve the full column specification for this data.
+## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+```
+
+```r
+cases_bath_all = read_csv('./Data/daily_cases_bath_total.csv')
+```
+
+```
 ## Rows: 519 Columns: 5
 ```
 
@@ -83,11 +132,6 @@ cases_bath_all = read_csv('https://api.coronavirus.data.gov.uk/v2/data?areaType=
 ## i Use `spec()` to retrieve the full column specification for this data.
 ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 ```
-Note: The UK covid-19 API is sometimes down. These above data sets are also available 
-in the data folder on GitHub. 
-  
-  * weely_cases_bath_MSOA contains the MSOA-level rolling seven day totals, released every week.
-  * daily_cases_bath_total contains the rolling seven day totals for the whole local authority, released daily
 
  
 Now I extract data for one low week between peaks in April 2021 (lots of censoring)
@@ -176,4 +220,4 @@ ggplot() +
   theme_bw()+ ggtitle('Confirmed Cases in Bath and Northeast Somerset')
 ```
 
-![](Challenge_Question_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![](Challenge_Question_files/figure-html/unnamed-chunk-9-1.png)<!-- -->

@@ -171,7 +171,7 @@ pre code {
 <pre class="r"><code>library(tidyverse)
 library(sf)</code></pre>
 <p>Read in the polygon (you will need to download from the data folder first).</p>
-<pre class="r"><code>map_MSOA = st_read(&#39;./data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Super_Output_Areas_2011.shp&#39;)</code></pre>
+<pre class="r"><code>map_MSOA = st_read(&#39;./Data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Super_Output_Areas_2011.shp&#39;)</code></pre>
 <pre><code>## Reading layer `Middle_Layer_Super_Output_Areas_2011&#39; from data source 
 ##   `C:\Users\trs35\OneDrive - University of Bath\SummerSchool\SpatialHealthOGH\Challange_Question\Data\Middle_Layer_Super_Output_Areas_2011\Middle_Layer_Super_Output_Areas_2011.shp&#39; 
 ##   using driver `ESRI Shapefile&#39;
@@ -183,7 +183,7 @@ library(sf)</code></pre>
 <pre class="r"><code>MSOA_bath = map_MSOA[grep(&#39;Bath&#39;, map_MSOA$msoa11nm),]</code></pre>
 <p>Download the case data for Bath from UK Covid dashboard API. First MSOA-level data: rolling seven day totals, released once per week. Missing rows mean censored data (counts = 0, 1, or 2).</p>
 <pre class="r"><code>cases_bath_msoa = read_csv(&#39;https://api.coronavirus.data.gov.uk/v2/data?areaType=msoa&amp;areaCode=E06000022&amp;metric=newCasesBySpecimenDateRollingSum&amp;format=csv&#39;)</code></pre>
-<pre><code>## Rows: 871 Columns: 11</code></pre>
+<pre><code>## Rows: 879 Columns: 11</code></pre>
 <pre><code>## -- Column specification --------------------------------------------------------
 ## Delimiter: &quot;,&quot;
 ## chr  (9): regionCode, regionName, UtlaCode, UtlaName, LtlaCode, LtlaName, ar...
@@ -194,6 +194,31 @@ library(sf)</code></pre>
 ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 <p>Next get data for the whole local authority: rolling seven day totals, released daily.</p>
 <pre class="r"><code>cases_bath_all = read_csv(&#39;https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&amp;areaCode=E06000022&amp;metric=newCasesBySpecimenDateRollingSum&amp;format=csv&#39;)</code></pre>
+<pre><code>## Rows: 523 Columns: 5</code></pre>
+<pre><code>## -- Column specification --------------------------------------------------------
+## Delimiter: &quot;,&quot;
+## chr  (3): areaCode, areaName, areaType
+## dbl  (1): newCasesBySpecimenDateRollingSum
+## date (1): date</code></pre>
+<pre><code>## 
+## i Use `spec()` to retrieve the full column specification for this data.
+## i Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<p>Note: The UK covid-19 API is sometimes down, and sometimes the dates change for the weekly release. The versions of the above data sets used to make the figure in the Google Doc are also available in the data folder on GitHub.</p>
+<ul>
+<li>weely_cases_bath_MSOA contains the MSOA-level rolling seven day totals, released every week.</li>
+<li>daily_cases_bath_total contains the rolling seven day totals for the whole local authority, released daily</li>
+</ul>
+<pre class="r"><code>cases_bath_msoa = read_csv(&#39;./Data/weekly_cases_bath_MSOA.csv&#39;)</code></pre>
+<pre><code>## Rows: 871 Columns: 11</code></pre>
+<pre><code>## -- Column specification --------------------------------------------------------
+## Delimiter: &quot;,&quot;
+## chr  (9): regionCode, regionName, UtlaCode, UtlaName, LtlaCode, LtlaName, ar...
+## dbl  (1): newCasesBySpecimenDateRollingSum
+## date (1): date</code></pre>
+<pre><code>## 
+## i Use `spec()` to retrieve the full column specification for this data.
+## i Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<pre class="r"><code>cases_bath_all = read_csv(&#39;./Data/daily_cases_bath_total.csv&#39;)</code></pre>
 <pre><code>## Rows: 519 Columns: 5</code></pre>
 <pre><code>## -- Column specification --------------------------------------------------------
 ## Delimiter: &quot;,&quot;
@@ -203,11 +228,6 @@ library(sf)</code></pre>
 <pre><code>## 
 ## i Use `spec()` to retrieve the full column specification for this data.
 ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-<p>Note: The UK covid-19 API is sometimes down. These above data sets are also available in the data folder on GitHub.</p>
-<ul>
-<li>weely_cases_bath_MSOA contains the MSOA-level rolling seven day totals, released every week.</li>
-<li>daily_cases_bath_total contains the rolling seven day totals for the whole local authority, released daily</li>
-</ul>
 <p>Now I extract data for one low week between peaks in April 2021 (lots of censoring) and one peak week in July 2021 to demonstrate the censoring problem.</p>
 <pre class="r"><code>low_week = filter(cases_bath_msoa, as.character(date) == &#39;2021-04-20&#39;)%&gt;%
   select(areaCode, April_2021 = contains(&#39;Cases&#39;))
