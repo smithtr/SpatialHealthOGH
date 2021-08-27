@@ -13,7 +13,7 @@ library(sf)
 
 Read in the polygon (you will need to download from the data folder first).
 ```{r, message=FALSE}
-map_MSOA = st_read('./data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Super_Output_Areas_2011.shp')
+map_MSOA = st_read('./Data/Middle_Layer_Super_Output_Areas_2011/Middle_Layer_Super_Output_Areas_2011.shp')
 MSOA_bath = map_MSOA[grep('Bath', map_MSOA$msoa11nm),]
 ```
 
