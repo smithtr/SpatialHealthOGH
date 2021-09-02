@@ -80,6 +80,16 @@ ggplot() +
 ```
 
 ### Exceedence
+
+Question: which MSOAs have substantially lower odds of vaccination after accounting for
+deprivation and age structure?
+
+
+Answer: Find areas where the following quantity is high
+
+$$p(v_i+u_i < \text{threshold})$$
+
+
 ```{r}
 London_BYMv2 = inla(Y ~ IMD+ I(IMD^2)+ old + young*I(young<0.4) + f(IDu, model = "bym", graph = London_W),
                     Ntrials = n, data = London_Vax_INLA, family = 'binomial')
