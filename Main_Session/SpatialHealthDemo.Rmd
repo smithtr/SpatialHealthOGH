@@ -79,14 +79,17 @@ ggplot() +
   geom_sf(data = London_Vax, aes(fill = u))
 ```
 
+
+Negative values of u+v: odds of vaccination lower than we would expect given deprivation and age structure.
+
+
 ### Exceedence
 
 Question: which MSOAs have substantially lower odds of vaccination after accounting for
 deprivation and age structure?
 
 
-Answer: Find areas where the following quantity is high
-
+Answer: Calculate probability odds of vaccination (much) lower than we would expect
 $$p(v_i+u_i < \text{threshold})$$
 
 
