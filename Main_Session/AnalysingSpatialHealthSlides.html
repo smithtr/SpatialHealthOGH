@@ -15,6 +15,7 @@ class: center, middle, inverse, title-slide
 # Analysing Spatiotemporal Health Data
 ## OpenGeoHub Summer School 2021
 ### Theresa Smith
+### University of Bath
 ### Friday 3 September 2021
 
 ---
@@ -269,14 +270,14 @@ London_BYM = inla(Y ~ IMD+ I(IMD^2)+ old + young*I(young&lt;0.4) + f(IDv, model 
 
 
 ```
-##                                   mean           sd    0.025quant  0.975quant
-## (Intercept)               1.1846603155 0.1050750464  0.9783370314  1.39084087
-## IMD                      -0.0299770758 0.0029378850 -0.0357467668 -0.02421320
-## I(IMD^2)                  0.0003301786 0.0000567374  0.0002187705  0.00044151
-## old                       1.3314507008 0.2502019703  0.8400987068  1.82234875
-## young                    -0.6432213783 0.1845852733 -1.0057151537 -0.28106415
-## I(young &lt; 0.4)TRUE        0.6547695994 0.1077487767  0.4431825848  0.86618409
-## young:I(young &lt; 0.4)TRUE -1.7110941410 0.2703925669 -2.2420764784 -1.18056597
+##                                   mean           sd    0.025quant    0.975quant
+## (Intercept)               1.1846605539 1.050748e-01  0.9783378365  1.3908405495
+## IMD                      -0.0299770739 2.937877e-03 -0.0357467482 -0.0242132111
+## I(IMD^2)                  0.0003301785 5.673724e-05  0.0002187708  0.0004415096
+## old                       1.3314508200 2.502013e-01  0.8401002231  1.8223475508
+## young                    -0.6432219148 1.845848e-01 -1.0057148243 -0.2810657006
+## I(young &lt; 0.4)TRUE        0.6547694206 1.077485e-01  0.4431829516  0.8661833610
+## young:I(young &lt; 0.4)TRUE -1.7110939026 2.703919e-01 -2.2420749284 -1.1805671857
 ```
 
 
@@ -411,10 +412,39 @@ y_{it} &amp; \sim \mathsf{Binom}(N_{it}, \theta_{it}),\\
 --
 
 - Active research areas
-  - Prior specification for fixed effects and variances (which I totally ignored)
+  - Prior specification for fixed effects and variances 
   - Continuous spatial models for `\(u\)` such as `\(u \sim \mathsf{GP}\)` via INLA-SPDE
 
 ---
+.pull-left[
+### A word on priors 
+
+Priors: distribution of the parameters before you see the data `\(\pi(\beta, \tau, \gamma)\)`
+
+-- 
+![](bym2.png)
+
+--
+![](bym2eqn.png)
+
+]
+
+--
+
+.pull-right[
+
+### INLA SPDE
+INLA-friendly approximation to a continuous GP
+
+--
+![](mesh-ncmeshv-1.png)
+
+- [Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA](https://becarioprecario.bitbucket.io/spde-gitbook/index.html)
+
+]
+
+---
+
 
 
 ## Resources
@@ -429,8 +459,12 @@ y_{it} &amp; \sim \mathsf{Binom}(N_{it}, \theta_{it}),\\
 Get in touch with me
 
 - email: t.r.smith@bath.ac.uk
-- Twitter: @TheresaRSmith
+- Twitter: [@TheresaRSmith](https://twitter.com/theresarsmith)
 
+--
+
+&lt;br&gt; &lt;br&gt;
+[Challenge Question](https://docs.google.com/document/d/1QfuvSjX6iL9ZTCmFsBeCakB3nEIJExd4RmDFjSKIcOc/edit)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

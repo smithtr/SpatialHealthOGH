@@ -3,6 +3,7 @@ title: 'Analysing Spatiotemporal Health Data'
 author: 'Theresa Smith'
 subtitle: "OpenGeoHub Summer School 2021"
 date: 'Friday 3 September 2021'
+institute: 'University of Bath'
 output:
   xaringan::moon_reader:
     nature:
@@ -497,10 +498,39 @@ y_{it} & \sim \mathsf{Binom}(N_{it}, \theta_{it}),\\
 --
 
 - Active research areas
-  - Prior specification for fixed effects and variances (which I totally ignored)
+  - Prior specification for fixed effects and variances 
   - Continuous spatial models for $u$ such as $u \sim \mathsf{GP}$ via INLA-SPDE
 
 ---
+.pull-left[
+### A word on priors 
+
+Priors: distribution of the parameters before you see the data $\pi(\beta, \tau, \gamma)$
+
+-- 
+![](bym2.png)
+
+--
+![](bym2eqn.png)
+
+]
+
+--
+
+.pull-right[
+
+### INLA SPDE
+INLA-friendly approximation to a continuous GP
+
+--
+![](mesh-ncmeshv-1.png)
+
+- [Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA](https://becarioprecario.bitbucket.io/spde-gitbook/index.html)
+
+]
+
+---
+
 
 
 ## Resources
@@ -515,5 +545,9 @@ y_{it} & \sim \mathsf{Binom}(N_{it}, \theta_{it}),\\
 Get in touch with me
 
 - email: t.r.smith@bath.ac.uk
-- Twitter: @TheresaRSmith
+- Twitter: [@TheresaRSmith](https://twitter.com/theresarsmith)
 
+--
+
+<br> <br>
+[Challenge Question](https://docs.google.com/document/d/1QfuvSjX6iL9ZTCmFsBeCakB3nEIJExd4RmDFjSKIcOc/edit)
